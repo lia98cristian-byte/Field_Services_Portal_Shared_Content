@@ -1,0 +1,38 @@
+FIELD SERVICES PORTAL — SHARED ADDED CONTENT SETUP
+
+This version makes Added Content shared across all browsers/users by storing the LINK records in Supabase.
+The portal still stores links only. It does not upload or delete your original SharePoint photos, files, or videos.
+
+1) Create a free Supabase project
+   https://supabase.com/
+
+2) In Supabase, open SQL Editor > New query.
+   Paste and run the contents of SUPABASE_SETUP.sql.
+Mot@93972005$
+3) In Supabase, open Project Settings > API (or Connect/API Keys depending on the current UI).
+   Copy:
+   - uneifqxmhoyrlqqomshj
+   - sb_publishable_RO9YoOAHT51b-2V1Rs4pSA_o9cNEvlG
+
+4) Open: data/shared_content_config.js
+   Replace:
+   PASTE_YOUR_SUPABASE_PROJECT_URL_HERE
+   PASTE_YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY_HERE
+
+5) Upload/replace these files in the ROOT of your GitHub repository while preserving folders:
+   - index.html
+   - assets/content-library.js
+   - data/shared_content_config.js
+
+6) Commit the changes and wait for GitHub Pages to redeploy.
+   Refresh the website with Ctrl+F5.
+
+HOW IT WORKS
+- Add New Content: adds a video/photo/file LINK to the shared database.
+- Refresh Shared Content: reloads the list immediately.
+- The page also checks for updates automatically about every 30 seconds and when the browser regains focus.
+- Remove: removes only the link card from the shared portal for everyone.
+- The original content at SharePoint/YouTube/etc. is never deleted.
+
+IMPORTANT SECURITY NOTE
+This no-login design intentionally allows visitors who can reach the website to add and remove link cards. The Supabase anon/publishable key is safe to expose only because Row Level Security controls what it can do. If you need only managers to add/remove content, add authentication or a server-side admin layer later.

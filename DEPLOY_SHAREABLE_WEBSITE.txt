@@ -1,0 +1,25 @@
+FIELD SERVICES PORTAL — SHAREABLE WEBSITE
+
+This package is a static website. It does not require Python or a local server.
+
+IMPORTANT:
+Opening index.html from your computer works only on that computer. To give coworkers ONE clickable website address, the folder must be uploaded to a web host.
+
+Recommended company option:
+1. Host the entire folder on an approved internal web server or Azure Static Web Apps.
+2. Keep SharePoint permissions on the Management folder restricted to the intended Baptist/Stefanini users.
+3. Share the resulting HTTPS website address with your team.
+
+Other static hosting options:
+- GitHub Pages
+- Netlify
+- Cloudflare Pages
+- Any IIS/Apache/Nginx web server
+
+The website itself contains no passwords or SharePoint credentials. When a user clicks a workbook or the shared library, Microsoft 365/SharePoint will require that user's normal sign-in and permissions.
+
+FUTURE FILES / PHOTOS / VIDEOS:
+Use the “Add New Content” button in the portal. It opens the Management SharePoint folder, which acts as the central shared content repository.
+
+EXACT EXCEL LINKS:
+If you want a workbook card to open a specific file directly instead of SharePoint search, use SharePoint > Copy link for that workbook, then paste it into data/excel_online_links.js next to its exact local filename. After redeploying the site, every visitor will use the same direct link.

@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Field Services Operations Portal</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="brandmark">✦</div><div><h1>Field Services Portal</h1><p>Stefanini × Baptist Health</p></div></div>
+    <input id="search" class="search" placeholder="Search workbooks…">
+    <div class="navtitle">Workspace</div>
+    <button class="category-btn active" data-category="All"><span>All Workbooks</span><span class="count">12</span></button>
+    <button class="category-btn" data-category="Performance &amp; Reporting"><span>Performance &amp; Reporting</span><span class="count">1</span></button>
+    <button class="category-btn" data-category="Team &amp; Staffing"><span>Team &amp; Staffing</span><span class="count">3</span></button>
+    <button class="category-btn" data-category="Resources &amp; Inventory"><span>Resources &amp; Inventory</span><span class="count">2</span></button>
+    <button class="category-btn" data-category="Onboarding &amp; Offboarding"><span>Onboarding &amp; Offboarding</span><span class="count">3</span></button>
+    <button class="category-btn" data-category="Operations &amp; Scheduling"><span>Operations &amp; Scheduling</span><span class="count">3</span></button>
+    <div class="sidebar-footer">This edition is designed for shared web hosting. Excel workbooks can be opened through your configured online links.</div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div><div class="eyebrow">Global Tech Consulting Company • Healthcare Technology Partners</div><h2>Field Services Operations Hub</h2><p>A centralized workspace for performance, staffing, scheduling, onboarding, resources, media, documents, and operational tracking.</p></div>
+      <div class="top-actions">
+        <div class="status"><span class="dot"></span><span id="shared-content-status">Shared content</span></div>
+        <button class="btn" type="button" id="refresh-shared-content">↻ Refresh Shared Content</button>
+        <a class="btn" href="#" id="share-btn">Share Website</a>
+        <button class="btn primary" type="button" id="add-content-btn">＋ Add New Content</button>
+      </div>
+    </header>
+    <section class="stats">
+      <div class="stat"><b>12</b><span>Excel workbooks</span></div>
+      <div class="stat"><b>64</b><span>Worksheets centralized</span></div>
+      <div class="stat"><b id="added-content-count">0</b><span>Added content items</span></div>
+      <div class="stat"><b>Ready</b><span>For web hosting & sharing</span></div>
+    </section>
+    <div class="sectionhead"><h3 id="section-title">All Workbooks</h3><span id="result-count"></span></div>
+    <section class="grid" id="grid"></section>
+
+    <div class="sectionhead library-head"><h3>Added Content</h3><span>Photos • files • video links</span></div>
+    <section class="grid" id="user-content-grid">
+      <div class="empty" id="user-content-empty">Loading shared content…</div>
+    </section>
+
+    <div class="sectionhead library-head"><h3>Shared Content Library</h3><span>Excel • documents • photos • videos</span></div>
+    <section class="grid">
+      <article class="card">
+        <div class="cardtop"><div class="icon">☁</div><span class="tag">SharePoint</span></div>
+        <h4>Management Shared Documents</h4>
+        <p>Open the existing shared Management folder for operational files already stored in SharePoint.</p>
+        <div class="actions"><a class="btn primary" href="https://stefaninilatam.sharepoint.com/sites/BaptistHealthSouthFlorida/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBaptistHealthSouthFlorida%2FShared%20Documents%2FManagement&viewid=3ea48ea4%2D4da6%2D4dbc%2D8ff9%2D6e5d309eaa47&newTargetListUrl=%2Fsites%2FBaptistHealthSouthFlorida%2FShared%20Documents&viewpath=%2Fsites%2FBaptistHealthSouthFlorida%2FShared%20Documents%2FForms%2FAllItems%2Easpx" target="_blank" rel="noopener">Open Shared Library</a></div>
+      </article>
+    </section>
+  </main>
+</div>
+<script src="data/manifest.js"></script>
+<script src="data/excel_online_links.js"></script>
+<script src="assets/app-shareable.js"></script>
+
+<dialog id="add-content-dialog" class="content-dialog">
+  <div class="dialog-head">
+    <div>
+      <h3>Add New Content</h3>
+      <p>Add a link to a video, photo, or file.</p>
+    </div>
+    <button class="close-dialog" type="button" id="close-add-content" aria-label="Close">×</button>
+  </div>
+
+  <form id="link-content-form" class="content-form">
+    <label>Content type
+      <select id="content-type" required>
+        <option value="file">File / document</option>
+        <option value="photo">Photo / image</option>
+        <option value="video">Video</option>
+      </select>
+    </label>
+    <label>Title
+      <input id="content-title" type="text" maxlength="100" placeholder="Example: Timesheet Training" required>
+    </label>
+    <label>Link
+      <input id="content-url" type="url" placeholder="Paste the https:// link" required>
+    </label>
+    <label>Description <span class="optional">optional</span>
+      <textarea id="content-description" rows="3" maxlength="300" placeholder="Short description"></textarea>
+    </label>
+    <div class="storage-note">Paste a direct or shared link to the video, photo, or file. The portal saves the link only; it does not upload, move, or delete the original content.</div>
+    <div class="modal-actions"><button class="btn" type="button" data-close-dialog>Cancel</button><button class="btn primary" type="submit">Add Link</button></div>
+  </form>
+</dialog>
+
+<script src="data/shared_content_config.js"></script>
+<script src="assets/content-library.js"></script>
+</body>
+</html>

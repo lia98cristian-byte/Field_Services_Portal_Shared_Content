@@ -1,0 +1,430 @@
+[
+  {
+    "id": "stefanini-fs-scorecard-10",
+    "file": "Stefanini_FS_Scorecard(10).xlsx",
+    "title": "Performance Scorecard",
+    "category": "Performance & Reporting",
+    "description": "Monthly and annual technician performance tracking, ratings, dashboards, and employee detail.",
+    "sheets": [
+      {
+        "name": "Monthly Scorecard",
+        "state": "visible",
+        "url": "sheets/stefanini-fs-scorecard-10/01-monthly-scorecard.html"
+      },
+      {
+        "name": "Scorecard and Rating",
+        "state": "visible",
+        "url": "sheets/stefanini-fs-scorecard-10/02-scorecard-and-rating.html"
+      },
+      {
+        "name": "Input & Settings",
+        "state": "visible",
+        "url": "sheets/stefanini-fs-scorecard-10/03-input-settings.html"
+      },
+      {
+        "name": "Annual Dashboard",
+        "state": "visible",
+        "url": "sheets/stefanini-fs-scorecard-10/04-annual-dashboard.html"
+      },
+      {
+        "name": "Employee Detail",
+        "state": "visible",
+        "url": "sheets/stefanini-fs-scorecard-10/05-employee-detail.html"
+      }
+    ]
+  },
+  {
+    "id": "stefanini-employees-bos-and-field-1",
+    "file": "Stefanini Employees - BOS and Field (1).xlsx",
+    "title": "Employee Roster",
+    "category": "Team & Staffing",
+    "description": "Field and BOS technician roster information.",
+    "sheets": [
+      {
+        "name": "Hospital Field Technicians",
+        "state": "visible",
+        "url": "sheets/stefanini-employees-bos-and-field-1/01-hospital-field-technicians.html"
+      },
+      {
+        "name": "BOS Techs",
+        "state": "visible",
+        "url": "sheets/stefanini-employees-bos-and-field-1/02-bos-techs.html"
+      }
+    ]
+  },
+  {
+    "id": "shirts-order-1",
+    "file": "Shirts_Order(1).xlsx",
+    "title": "Shirt Orders",
+    "category": "Resources & Inventory",
+    "description": "Polo ordering, size setup, returns, surplus, and delivery tracking.",
+    "sheets": [
+      {
+        "name": "Polo Orders",
+        "state": "visible",
+        "url": "sheets/shirts-order-1/01-polo-orders.html"
+      },
+      {
+        "name": "Size Setup",
+        "state": "visible",
+        "url": "sheets/shirts-order-1/02-size-setup.html"
+      }
+    ]
+  },
+  {
+    "id": "req-creation-checklist-guide-1",
+    "file": "Req Creation Checklist_Guide (1).xlsx",
+    "title": "Req Creation Guide",
+    "category": "Onboarding & Offboarding",
+    "description": "Recruiting requisition creation checklist and reference guide.",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "url": "sheets/req-creation-checklist-guide-1/01-sheet1.html"
+      }
+    ]
+  },
+  {
+    "id": "manager-tech-training-schedule-3",
+    "file": "Manager_Tech_Training_Schedule(3).xlsx",
+    "title": "Training Schedule",
+    "category": "Operations & Scheduling",
+    "description": "Weekly manager-to-technician training schedule and roster.",
+    "sheets": [
+      {
+        "name": "Weekly Training Schedule",
+        "state": "visible",
+        "url": "sheets/manager-tech-training-schedule-3/01-weekly-training-schedule.html"
+      },
+      {
+        "name": "Tech Roster",
+        "state": "visible",
+        "url": "sheets/manager-tech-training-schedule-3/02-tech-roster.html"
+      }
+    ]
+  },
+  {
+    "id": "holiday-coverage-2026-1",
+    "file": "Holiday Coverage 2026(1).xlsx",
+    "title": "Holiday Coverage",
+    "category": "Operations & Scheduling",
+    "description": "2026 holiday staffing and coverage planning.",
+    "sheets": [
+      {
+        "name": "2026",
+        "state": "visible",
+        "url": "sheets/holiday-coverage-2026-1/01-2026.html"
+      }
+    ]
+  },
+  {
+    "id": "field-services-links-1",
+    "file": "Field Services Links(1).xlsx",
+    "title": "Field Services Links",
+    "category": "Resources & Inventory",
+    "description": "Centralized operational links and resources.",
+    "sheets": [
+      {
+        "name": "Links",
+        "state": "visible",
+        "url": "sheets/field-services-links-1/01-links.html"
+      }
+    ]
+  },
+  {
+    "id": "field-services-exit-checklist-1",
+    "file": "Field Services Exit Checklist (1).xlsx",
+    "title": "Exit Checklists",
+    "category": "Onboarding & Offboarding",
+    "description": "Technician offboarding and exit checklists.",
+    "sheets": [
+      {
+        "name": "Mohammad Dossani",
+        "state": "visible",
+        "url": "sheets/field-services-exit-checklist-1/01-mohammad-dossani.html"
+      },
+      {
+        "name": "Antonio Rodriquez",
+        "state": "visible",
+        "url": "sheets/field-services-exit-checklist-1/02-antonio-rodriquez.html"
+      },
+      {
+        "name": "Master (DO NOT DELETE)",
+        "state": "visible",
+        "url": "sheets/field-services-exit-checklist-1/03-master-do-not-delete.html"
+      },
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "url": "sheets/field-services-exit-checklist-1/04-sheet1.html"
+      }
+    ]
+  },
+  {
+    "id": "field-services-entry-checklist-1",
+    "file": "Field Services Entry Checklist (1).xlsx",
+    "title": "Entry Checklists",
+    "category": "Onboarding & Offboarding",
+    "description": "Technician onboarding and entry checklists.",
+    "sheets": [
+      {
+        "name": "Kevin Liburd BHM",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/01-kevin-liburd-bhm.html"
+      },
+      {
+        "name": "Carlos Sanabria WK ",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/02-carlos-sanabria-wk.html"
+      },
+      {
+        "name": "Amanda Rodriguex HH",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/03-amanda-rodriguex-hh.html"
+      },
+      {
+        "name": "Jonathan Davila SMH",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/04-jonathan-davila-smh.html"
+      },
+      {
+        "name": "Carlos Martinez WK",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/05-carlos-martinez-wk.html"
+      },
+      {
+        "name": "Andrew Montgomery HH",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/06-andrew-montgomery-hh.html"
+      },
+      {
+        "name": "Peter Gonzalez Bethesda E",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/07-peter-gonzalez-bethesda-e.html"
+      },
+      {
+        "name": "Alvaro Hernandez Boca ",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/08-alvaro-hernandez-boca.html"
+      },
+      {
+        "name": "Anthony Thompson BHM",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/09-anthony-thompson-bhm.html"
+      },
+      {
+        "name": "Kaevon Tyler BOS",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/10-kaevon-tyler-bos.html"
+      },
+      {
+        "name": "Braynon Edwards DH",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/11-braynon-edwards-dh.html"
+      },
+      {
+        "name": "Teddy Joseph HH",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/12-teddy-joseph-hh.html"
+      },
+      {
+        "name": "Carlos Espinosa BHM",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/13-carlos-espinosa-bhm.html"
+      },
+      {
+        "name": "Steven Morejon BHM",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/14-steven-morejon-bhm.html"
+      },
+      {
+        "name": "Carly Huber Bethesda W",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/15-carly-huber-bethesda-w.html"
+      },
+      {
+        "name": "Julian Grier Bethesda E",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/16-julian-grier-bethesda-e.html"
+      },
+      {
+        "name": "Javier Valdivia SMH Terminated",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/17-javier-valdivia-smh-terminated.html"
+      },
+      {
+        "name": "Wanel BOS",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/18-wanel-bos.html"
+      },
+      {
+        "name": "Template",
+        "state": "visible",
+        "url": "sheets/field-services-entry-checklist-1/19-template.html"
+      }
+    ]
+  },
+  {
+    "id": "candidate-evaluation-1",
+    "file": "Candidate Evaluation(1).xlsx",
+    "title": "Candidate Evaluations",
+    "category": "Team & Staffing",
+    "description": "Interview and candidate evaluation worksheets.",
+    "sheets": [
+      {
+        "name": "Template",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/01-template.html"
+      },
+      {
+        "name": "John Grant 7.16.26 BOS",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/02-john-grant-7-16-26-bos.html"
+      },
+      {
+        "name": "Ivan Lara 7.10.26 BOS",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/03-ivan-lara-7-10-26-bos.html"
+      },
+      {
+        "name": "Miguel Zamora TRA Guy",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/04-miguel-zamora-tra-guy.html"
+      },
+      {
+        "name": "John Masvidal",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/05-john-masvidal.html"
+      },
+      {
+        "name": "Kevin Liburd",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/06-kevin-liburd.html"
+      },
+      {
+        "name": "Amanda Rodriguez HH",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/07-amanda-rodriguez-hh.html"
+      },
+      {
+        "name": "Johnathan Davila 7.6.26 SMH",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/08-johnathan-davila-7-6-26-smh.html"
+      },
+      {
+        "name": "Arturo Santana SMH",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/09-arturo-santana-smh.html"
+      },
+      {
+        "name": "Carlos Sanabria WK",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/10-carlos-sanabria-wk.html"
+      },
+      {
+        "name": "Carlos Martinez 6.19.26 - WK",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/11-carlos-martinez-6-19-26-wk.html"
+      },
+      {
+        "name": "Mathew Alper-6.18.26 - Bethesda",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/12-mathew-alper-6-18-26-bethesda.html"
+      },
+      {
+        "name": "Jose Riviera-6.17.26 OFF",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/13-jose-riviera-6-17-26-off.html"
+      },
+      {
+        "name": "Misc",
+        "state": "visible",
+        "url": "sheets/candidate-evaluation-1/14-misc.html"
+      }
+    ]
+  },
+  {
+    "id": "baptist-field-services-updates-1",
+    "file": "Baptist Field Services Updates(1).xlsx",
+    "title": "Field Services Updates",
+    "category": "Team & Staffing",
+    "description": "Team updates, PTO coverage, one-on-ones, interviews, and dress code tracking.",
+    "sheets": [
+      {
+        "name": "Baptist Field Techs",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/01-baptist-field-techs.html"
+      },
+      {
+        "name": "PTO Coverage",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/02-pto-coverage.html"
+      },
+      {
+        "name": "One on Ones",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/03-one-on-ones.html"
+      },
+      {
+        "name": "Misc",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/04-misc.html"
+      },
+      {
+        "name": "Interview Updates ",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/05-interview-updates.html"
+      },
+      {
+        "name": "Dress Code Order",
+        "state": "visible",
+        "url": "sheets/baptist-field-services-updates-1/06-dress-code-order.html"
+      }
+    ]
+  },
+  {
+    "id": "2nd-shift-round-robin-sheet-1",
+    "file": "2nd shift Round Robin Sheet(1).xlsx",
+    "title": "2nd Shift Round Robin",
+    "category": "Operations & Scheduling",
+    "description": "Daily second-shift round-robin assignments.",
+    "sheets": [
+      {
+        "name": "Monday (Rafael)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/01-monday-rafael.html"
+      },
+      {
+        "name": "Tuesday (Joshio)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/02-tuesday-joshio.html"
+      },
+      {
+        "name": "Wednesday (Rafael)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/03-wednesday-rafael.html"
+      },
+      {
+        "name": "Thursday (Joshio)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/04-thursday-joshio.html"
+      },
+      {
+        "name": "Friday (Joshio)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/05-friday-joshio.html"
+      },
+      {
+        "name": "Saturday No Round Robin",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/06-saturday-no-round-robin.html"
+      },
+      {
+        "name": "Sunday (Rafael)",
+        "state": "visible",
+        "url": "sheets/2nd-shift-round-robin-sheet-1/07-sunday-rafael.html"
+      }
+    ]
+  }
+]
